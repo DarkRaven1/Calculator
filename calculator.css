@@ -1,0 +1,82 @@
+body {
+  font-family: Roboto;
+  display: flex;
+  height: 650px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-div {
+  height: 460px;
+  width: 420px;
+  box-shadow: 0px 1px 4px rgb(170, 170, 170);
+  border-radius: 2px;
+  padding: 20px 18px;
+}
+
+.alpha-div {
+  height: 70px;
+  box-shadow: 0px 0px 3px rgb(140, 140, 140);
+  margin-bottom: 20px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+}
+.alpha-div:hover {
+  box-shadow:inset 0px 0px 8px rgb(189, 189, 189);
+  border-radius: 1px;
+}
+
+.beta-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 12px;
+}
+
+.buttons {
+  font-size: 22px;
+  display: block;
+  height: 55px;
+  width: 100%;
+  margin-bottom: 18px;
+  border: 1px solid rgb(201, 201, 201);
+  background-color: rgb(251, 251, 251);
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 1px;
+}
+.buttons:hover {
+  box-shadow: 0px 0px 3px rgb(130, 130, 130);
+}
+
+.beta-columns-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.equal-button {
+  color: white;
+  font-size: 22px;
+  height: 274px;
+  background-color: rgb(37, 102, 255);
+  border: none;
+  cursor: pointer;
+  border-radius: 1px;
+}
+.equal-button:hover {
+  box-shadow: 0px 0px 3px rgb(130, 130, 130);
+  opacity: 0.9;
+}
+
+.operator-buttons {
+  border: 1px solid gray;
+  background-color: rgb(224, 224, 224);
+  border-radius: 1px;
+}
+
+.number-box {
+  margin-left: 10px;
+  font-size: 40px;
+  display: inline;
+}
