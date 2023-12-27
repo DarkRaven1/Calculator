@@ -24,9 +24,9 @@ for (let button of buttons) {
 function operators (string) {
   let newString = '';
   for(i = 0; i <= string.length - 1; i++) {
-    if(ali[i] === '*'){
+    if(string[i] === '*'){
       newString += `${string[i] = '&#215;'}`;
-    }else if (ali[i] === '/'){
+    }else if (string[i] === '/'){
       newString += `${string[i] = '&#247;'}`;
     }else{
       newString += string[i];
